@@ -1,24 +1,24 @@
 # Generative-AI
-Ce code crée une assistance vocale intelligente utilisant l'API Gemini de Google, intégrée dans une application web Flask, qui :
+This code creates an intelligent voice assistant using Google's Gemini API, integrated into a Flask web application. It:
 
-Configure le modèle IA (Gemini 1.5 Pro) avec une clé API Google
+Configures the AI ​​model (Gemini 1.5 Pro) with a Google API key
 
-Gère une conversation contextuelle en conservant l'historique des échanges
+Manages a contextual conversation while preserving the conversation history
 
-Optimise les réponses pour qu'elles soient claires et concises (sans digressions inutiles)
+Optimizes responses to be clear and concise (without unnecessary digressions)
 
-Offre une interface web (via Flask) avec :
+Provides a web interface (via Flask) with:
 
-Une page d'accueil (/)
+A home page (/)
 
-Un endpoint API (/process_voice) pour traiter les requêtes vocales et renvoyer des réponses en JSON
+An API endpoint (/process_voice) to process voice requests and return responses in JSON
 
-Compare les similarités textuelles (via difflib) pour une analyse potentielle des inputs utilisateur
+Compares text similarities (via difflib) for potential user input analysis
 
-Fonctionnement résumé :
-L'utilisateur envoie une requête vocale → L'IA génère une réponse ciblée → L'historique de conversation est mis à jour et renvoyé à l'interface.
+How it works:
+The user sends a voice request → The AI ​​generates a targeted response → The conversation history is updated and returned to the interface.
 
-Note : Remplacez "your api key" par une vraie clé Google API pour le faire fonctionner.
+Note: Replace "your api key" with a real Google API key to make it work.
 
 Clic on le lien below:
 ![image](https://github.com/user-attachments/assets/0530f464-3184-4c26-878b-4b40923a375e)
